@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #121219;
+}
+
+.timer-value {
+  font-family: "Roboto Mono", monospace;
+
+  @apply text-white text-[62px] sm:text-[95px];
+}
